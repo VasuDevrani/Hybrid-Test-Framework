@@ -1,0 +1,48 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# Build output
+/target/
+/out/
+/build/
+
+# Maven
+.mvn/
+!**/src/main/**/maven-wrapper.jar
+
+# Test reports and screenshots
+/test-output/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.class
+*.swp
+*.swo
+*.tmp
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Docker
+*.pid
+docker-compose.override.yml
+.env
+
+# Java
+*.jar
+*.war
+*.ear
+
+# VS Code (if ever used)
+.vscode/
+
+# Others
+test-output/
